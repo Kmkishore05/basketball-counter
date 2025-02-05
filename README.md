@@ -31,4 +31,4 @@ This is a simple web application that allows users to keep track of basketball p
 
 ## Web link 
 
-![View Page](https://basketballpoints.netlify.app/)
+[View Page](https://basketballpoints.netlify.app/)
