@@ -27,5 +27,4 @@ This is a simple web application that allows users to keep track of basketball p
 ```              
 
 ## Preview         
-
-      
+preview.jpg
