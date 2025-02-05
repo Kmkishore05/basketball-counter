@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "digital";
+    src: url(DS-DIGIT.TTF);
+}
+@font-face {
+    font-family: "sports";
+    src: url(Hyper\ Oxide.ttf);
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 75px;
+    color: aliceblue;
+    padding-left: 35px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: "sports";
+    text-shadow: 0px 0px 6px black;
+
+}
+
+.total-background{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.home-scorecard , .guest-scorecard{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    font-family: "digital";
+    padding-left: 20px;
+    
+}
+
+.home-count{
+    padding-right: 100px;
+
+    
+}
+button{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding:7px ;
+    border: 1px solid white;
+    background-color: #001d3d;
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: "digital";
+    font-size: 25px;
+    
+}
+
+#gfoul{
+    font-family: "sports";
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#hfoul{
+    font-family: "sports";
+    padding: 10px;
+    margin-left: 20px;
+}

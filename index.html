@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basketball-score</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    
+ <div class="total-background" >
+    <div class="home-count-bg">
+        <div class="home-count">
+            <h2>HOME</h2>
+            <div class="home-scorecard">
+                <h1 id="hscore">0</h1>
+            </div>
+        </div>
+        <div class="home-count-buttons">
+            <button id="one" onclick="one()">+1</button>
+            <button id="two" onclick="two()">+2</button>
+            <button id="three" onclick="three()">+3</button>
+        </div>
+        <button id="hfoul" onclick="hfoul()">FOUL</button>
+    </div>
+    <div class="guest-count-bg">
+        <div class="guest-count">
+            <h2>GUEST</h2>
+            <div class="guest-scorecard">
+                <h1 id="gscore">0</h1>
+            </div>
+        </div>
+        <div class="guest-count-buttons">
+            <button id="one" onclick="gone()">+1</button>
+            <button id="two" onclick="gtwo()">+2</button>
+            <button id="three" onclick="gthree()">+3</button>
+        </div>
+        <button id="gfoul" onclick="gfoul()">FOUL</button>
+
+    </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
