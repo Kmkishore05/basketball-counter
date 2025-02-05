@@ -27,4 +27,8 @@ This is a simple web application that allows users to keep track of basketball p
 ```              
 
 ## Preview         
-![Basketball Points Counter](preview.jpg)
+![Basketball Points Counter](preview.jpg)         
+
+## Web link 
+
+![View Page](https://basketballpoints.netlify.app/)
